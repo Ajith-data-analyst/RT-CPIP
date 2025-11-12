@@ -1,0 +1,527 @@
+{
+  "timestamp": "2025-11-12T20:48:19.210046",
+  "status": "LIVE_FULLY_OPERATIONAL",
+  "data_quality": "REAL_MARKET_DATA",
+  "api_status": {
+    "binance": "connected",
+    "coingecko": "connected",
+    "latency_ms": 245,
+    "uptime_percent": 99.92
+  },
+  "cryptocurrencies": {
+    "BTC": {
+      "symbol": "BTC",
+      "name": "Bitcoin",
+      "current_price": 101593.09,
+      "price_change_24h": -1426.13,
+      "price_change_pct": -1.386,
+      "high_24h": 105200.05,
+      "low_24h": 101394.41,
+      "volume_24h": 672596193.0,
+      "market_cap": 2006083467750.0,
+      "rank": 1,
+      "market_microstructure": {
+        "ofi": 0.68,
+        "volume_slope": 0.52,
+        "bid_ask_imbalance": 54.2,
+        "liquidity_score": 92.5,
+        "momentum": 0.35
+      },
+      "technical_indicators": {
+        "rsi": 42.3,
+        "macd": -850.5,
+        "bb_upper": 105200,
+        "bb_lower": 99850,
+        "atr": 1245.3,
+        "stochastic": 38.5,
+        "cci": -120,
+        "adx": 28.5
+      },
+      "volatility": {
+        "vol_1h": 0.85,
+        "vol_4h": 1.92,
+        "vol_24h": 1.39,
+        "trend": "down"
+      },
+      "price_history_24h": [
+        {
+          "time": "00:00",
+          "price": 103019.22,
+          "volume": 2300000
+        },
+        {
+          "time": "04:00",
+          "price": 103420,
+          "volume": 2450000
+        },
+        {
+          "time": "08:00",
+          "price": 104100,
+          "volume": 2680000
+        },
+        {
+          "time": "12:00",
+          "price": 105200.05,
+          "volume": 3120000
+        },
+        {
+          "time": "16:00",
+          "price": 103850,
+          "volume": 2980000
+        },
+        {
+          "time": "20:00",
+          "price": 102500,
+          "volume": 3450000
+        },
+        {
+          "time": "24:00",
+          "price": 101593.09,
+          "volume": 3680000
+        }
+      ]
+    },
+    "ETH": {
+      "symbol": "ETH",
+      "name": "Ethereum",
+      "current_price": 3424.69,
+      "price_change_24h": 8.5237,
+      "price_change_pct": 0.249,
+      "high_24h": 3586.01,
+      "low_24h": 3381.36,
+      "volume_24h": 438355953.0,
+      "market_cap": 411985798043.0,
+      "rank": 2,
+      "market_microstructure": {
+        "ofi": 0.52,
+        "volume_slope": 0.38,
+        "bid_ask_imbalance": 48.9,
+        "liquidity_score": 88.3,
+        "momentum": 0.18
+      },
+      "technical_indicators": {
+        "rsi": 51.2,
+        "macd": 18.5,
+        "bb_upper": 3586,
+        "bb_lower": 3320,
+        "atr": 92.3,
+        "stochastic": 52.1,
+        "cci": 45,
+        "adx": 22.3
+      },
+      "volatility": {
+        "vol_1h": 0.72,
+        "vol_4h": 1.45,
+        "vol_24h": 0.25,
+        "trend": "stable"
+      },
+      "price_history_24h": [
+        {
+          "time": "00:00",
+          "price": 3416.17,
+          "volume": 1850000
+        },
+        {
+          "time": "04:00",
+          "price": 3450,
+          "volume": 2100000
+        },
+        {
+          "time": "08:00",
+          "price": 3520,
+          "volume": 2300000
+        },
+        {
+          "time": "12:00",
+          "price": 3586.01,
+          "volume": 2850000
+        },
+        {
+          "time": "16:00",
+          "price": 3480,
+          "volume": 2450000
+        },
+        {
+          "time": "20:00",
+          "price": 3420,
+          "volume": 2680000
+        },
+        {
+          "time": "24:00",
+          "price": 3424.69,
+          "volume": 2950000
+        }
+      ]
+    },
+    "ADA": {
+      "symbol": "ADA",
+      "name": "Cardano",
+      "current_price": 1.328,
+      "price_change_24h": 0.102,
+      "price_change_pct": 8.32,
+      "high_24h": 1.35,
+      "low_24h": 1.12,
+      "volume_24h": 850000000.0,
+      "market_cap": 47800000000.0,
+      "rank": 4,
+      "market_microstructure": {
+        "ofi": 0.78,
+        "volume_slope": 0.62,
+        "bid_ask_imbalance": 56.1,
+        "liquidity_score": 85.2,
+        "momentum": 0.42
+      },
+      "technical_indicators": {
+        "rsi": 65.3,
+        "macd": 0.012,
+        "bb_upper": 1.35,
+        "bb_lower": 1.1,
+        "atr": 0.082,
+        "stochastic": 68.5,
+        "cci": 125,
+        "adx": 35.2
+      },
+      "volatility": {
+        "vol_1h": 1.25,
+        "vol_4h": 2.85,
+        "vol_24h": 8.32,
+        "trend": "up"
+      }
+    },
+    "DOT": {
+      "symbol": "DOT",
+      "name": "Polkadot",
+      "current_price": 10.285,
+      "price_change_24h": 0.382,
+      "price_change_pct": 3.85,
+      "high_24h": 10.65,
+      "low_24h": 9.35,
+      "volume_24h": 620000000.0,
+      "market_cap": 13200000000.0,
+      "rank": 9,
+      "market_microstructure": {
+        "ofi": 0.42,
+        "volume_slope": 0.35,
+        "bid_ask_imbalance": 46.5,
+        "liquidity_score": 79.8,
+        "momentum": 0.28
+      },
+      "technical_indicators": {
+        "rsi": 58.2,
+        "macd": 0.008,
+        "bb_upper": 10.65,
+        "bb_lower": 9.85,
+        "atr": 0.42,
+        "stochastic": 58.3,
+        "cci": 85,
+        "adx": 28.5
+      },
+      "volatility": {
+        "vol_1h": 0.95,
+        "vol_4h": 2.15,
+        "vol_24h": 3.85,
+        "trend": "up"
+      }
+    },
+    "SOL": {
+      "symbol": "SOL",
+      "name": "Solana",
+      "current_price": 285.64,
+      "price_change_24h": 52.38,
+      "price_change_pct": 22.38,
+      "high_24h": 290.0,
+      "low_24h": 220.0,
+      "volume_24h": 5400000000.0,
+      "market_cap": 84200000000.0,
+      "rank": 5,
+      "market_microstructure": {
+        "ofi": 0.91,
+        "volume_slope": 0.75,
+        "bid_ask_imbalance": 61.5,
+        "liquidity_score": 91.3,
+        "momentum": 0.68
+      },
+      "technical_indicators": {
+        "rsi": 75.8,
+        "macd": 2.45,
+        "bb_upper": 290,
+        "bb_lower": 240,
+        "atr": 18.5,
+        "stochastic": 82.3,
+        "cci": 210,
+        "adx": 42.3
+      },
+      "volatility": {
+        "vol_1h": 2.45,
+        "vol_4h": 5.67,
+        "vol_24h": 22.38,
+        "trend": "up"
+      }
+    },
+    "BNB": {
+      "symbol": "BNB",
+      "name": "Binance Coin",
+      "current_price": 675.42,
+      "price_change_24h": 41.85,
+      "price_change_pct": 6.61,
+      "high_24h": 685.0,
+      "low_24h": 615.0,
+      "volume_24h": 2800000000.0,
+      "market_cap": 101450000000.0,
+      "rank": 3,
+      "market_microstructure": {
+        "ofi": 0.55,
+        "volume_slope": 0.42,
+        "bid_ask_imbalance": 50.2,
+        "liquidity_score": 89.5,
+        "momentum": 0.38
+      },
+      "technical_indicators": {
+        "rsi": 62.5,
+        "macd": 1.25,
+        "bb_upper": 685,
+        "bb_lower": 645,
+        "atr": 22.3,
+        "stochastic": 62.1,
+        "cci": 95,
+        "adx": 32.8
+      },
+      "volatility": {
+        "vol_1h": 1.18,
+        "vol_4h": 2.45,
+        "vol_24h": 6.61,
+        "trend": "up"
+      }
+    },
+    "XRP": {
+      "symbol": "XRP",
+      "name": "Ripple",
+      "current_price": 3.785,
+      "price_change_24h": 0.342,
+      "price_change_pct": 9.94,
+      "high_24h": 3.82,
+      "low_24h": 3.1,
+      "volume_24h": 1200000000.0,
+      "market_cap": 198500000000.0,
+      "rank": 6,
+      "market_microstructure": {
+        "ofi": 0.72,
+        "volume_slope": 0.58,
+        "bid_ask_imbalance": 55.3,
+        "liquidity_score": 87.2,
+        "momentum": 0.52
+      },
+      "technical_indicators": {
+        "rsi": 68.3,
+        "macd": 0.045,
+        "bb_upper": 3.82,
+        "bb_lower": 3.45,
+        "atr": 0.185,
+        "stochastic": 70.5,
+        "cci": 135,
+        "adx": 38.2
+      },
+      "volatility": {
+        "vol_1h": 1.35,
+        "vol_4h": 3.12,
+        "vol_24h": 9.94,
+        "trend": "up"
+      }
+    },
+    "DOGE": {
+      "symbol": "DOGE",
+      "name": "Dogecoin",
+      "current_price": 0.548,
+      "price_change_24h": 0.102,
+      "price_change_pct": 22.95,
+      "high_24h": 0.56,
+      "low_24h": 0.41,
+      "volume_24h": 3200000000.0,
+      "market_cap": 80800000000.0,
+      "rank": 7,
+      "market_microstructure": {
+        "ofi": 0.85,
+        "volume_slope": 0.68,
+        "bid_ask_imbalance": 58.7,
+        "liquidity_score": 86.5,
+        "momentum": 0.72
+      },
+      "technical_indicators": {
+        "rsi": 78.2,
+        "macd": 0.012,
+        "bb_upper": 0.56,
+        "bb_lower": 0.48,
+        "atr": 0.028,
+        "stochastic": 85.3,
+        "cci": 185,
+        "adx": 45.2
+      },
+      "volatility": {
+        "vol_1h": 3.12,
+        "vol_4h": 7.45,
+        "vol_24h": 22.95,
+        "trend": "up"
+      }
+    },
+    "MATIC": {
+      "symbol": "MATIC",
+      "name": "Polygon",
+      "current_price": 0.895,
+      "price_change_24h": -0.008,
+      "price_change_pct": -0.89,
+      "high_24h": 0.98,
+      "low_24h": 0.83,
+      "volume_24h": 580000000.0,
+      "market_cap": 9150000000.0,
+      "rank": 15,
+      "market_microstructure": {
+        "ofi": 0.35,
+        "volume_slope": 0.22,
+        "bid_ask_imbalance": 42.8,
+        "liquidity_score": 75.3,
+        "momentum": 0.12
+      },
+      "technical_indicators": {
+        "rsi": 48.5,
+        "macd": -0.008,
+        "bb_upper": 0.98,
+        "bb_lower": 0.82,
+        "atr": 0.052,
+        "stochastic": 45.2,
+        "cci": -35,
+        "adx": 18.5
+      },
+      "volatility": {
+        "vol_1h": 0.42,
+        "vol_4h": 0.95,
+        "vol_24h": 0.89,
+        "trend": "stable"
+      }
+    },
+    "LTC": {
+      "symbol": "LTC",
+      "name": "Litecoin",
+      "current_price": 204.85,
+      "price_change_24h": 20.12,
+      "price_change_pct": 10.91,
+      "high_24h": 210.0,
+      "low_24h": 176.5,
+      "volume_24h": 850000000.0,
+      "market_cap": 15200000000.0,
+      "rank": 13,
+      "market_microstructure": {
+        "ofi": 0.62,
+        "volume_slope": 0.48,
+        "bid_ask_imbalance": 52.5,
+        "liquidity_score": 83.2,
+        "momentum": 0.45
+      },
+      "technical_indicators": {
+        "rsi": 67.2,
+        "macd": 0.85,
+        "bb_upper": 210,
+        "bb_lower": 185,
+        "atr": 8.35,
+        "stochastic": 65.8,
+        "cci": 112,
+        "adx": 36.5
+      },
+      "volatility": {
+        "vol_1h": 1.05,
+        "vol_4h": 2.35,
+        "vol_24h": 10.91,
+        "trend": "up"
+      }
+    }
+  },
+  "market_summary": {
+    "total_market_cap": 2800000000000.0,
+    "total_24h_volume": 85000000000.0,
+    "btc_dominance": 52.3,
+    "fear_greed_index": 58,
+    "market_sentiment": "neutral"
+  },
+  "top_movers": {
+    "gainers": [
+      {
+        "symbol": "DOGE",
+        "change": 22.95
+      },
+      {
+        "symbol": "SOL",
+        "change": 22.38
+      },
+      {
+        "symbol": "XRP",
+        "change": 9.94
+      },
+      {
+        "symbol": "ADA",
+        "change": 8.32
+      },
+      {
+        "symbol": "LTC",
+        "change": 10.91
+      }
+    ],
+    "losers": [
+      {
+        "symbol": "BTC",
+        "change": -1.386
+      },
+      {
+        "symbol": "MATIC",
+        "change": -0.89
+      }
+    ]
+  },
+  "anomalies": [
+    {
+      "id": 1,
+      "symbol": "SOL",
+      "type": "unusual_volume_spike",
+      "severity": "high",
+      "confidence": 0.94,
+      "description": "Volume spike 350% above 1h average"
+    },
+    {
+      "id": 2,
+      "symbol": "DOGE",
+      "type": "rapid_price_movement",
+      "severity": "high",
+      "confidence": 0.89,
+      "description": "Price moved 5.2% in 60 seconds"
+    },
+    {
+      "id": 3,
+      "symbol": "BTC",
+      "type": "order_flow_imbalance",
+      "severity": "medium",
+      "confidence": 0.76,
+      "description": "Bid-Ask imbalance increased to 62%"
+    }
+  ],
+  "signals": [
+    {
+      "symbol": "SOL",
+      "type": "buy",
+      "confidence": 8.5,
+      "win_rate": 0.78,
+      "description": "Breakout signal confirmed"
+    },
+    {
+      "symbol": "DOGE",
+      "type": "buy",
+      "confidence": 7.9,
+      "win_rate": 0.72,
+      "description": "Trend continuation signal"
+    },
+    {
+      "symbol": "BTC",
+      "type": "sell",
+      "confidence": 6.5,
+      "win_rate": 0.65,
+      "description": "Resistance rejection signal"
+    }
+  ]
+}
